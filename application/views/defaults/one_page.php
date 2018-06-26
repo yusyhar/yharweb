@@ -324,7 +324,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/amirul.jpg" alt="">
               <h4>Amirul</h4>
-              <p class="text-muted">Software Enggineer</p>
+              <p class="text-muted">Programmer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/amirul.yus.9">
@@ -372,7 +372,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/no.png" alt="">
               <h4>Khairil</h4>
-              <p class="text-muted">Software Enggineer</p>
+              <p class="text-muted">Programmer</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="https://www.facebook.com/chaireelazizee">
