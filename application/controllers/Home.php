@@ -24,15 +24,15 @@ class Home extends CI_Controller {
   	$config = array();
   	$config['protocol'] = 'smtp' ;
   	$config['smtp_host'] = 'ssl://mail.yharsolutions.com' ;
-  	$config['smtp_user'] = 'admin@yharsolutions.com' ;
-  	$config['smtp_pass'] = 'Yus@583890' ;
+  	$config['smtp_user'] = 'a@gmail.com' ;
+  	$config['smtp_pass'] = 'Yus' ;
   	$config['smtp_port'] = '465' ;
   	$this->email->initialize($config);
 
   	$this->email->set_newline("\r\n");
 
   	$this->email->from($data['email']);
-  	$this->email->to('admin@yharsolutions.com');
+  	$this->email->to('a@gmail.com');
   	$this->email->subject($data['subject']);
   	$this->email->message($data['msg']);
   	if($this->email->send()){
